@@ -17,4 +17,5 @@
 .mole {
     background-image: url('squirrel.jpg');
     background-size: cover;
+    cursor: grab;
 }
