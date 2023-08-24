@@ -21,7 +21,7 @@ function randomSquare() {
 
 squares.forEach(square => {
     square.addEventListener('mousedown', () => {
-        if (square.id == hitPosition) {
+        if (square.id == hitPosition && currentTime > 0) {
             result++;
             score.innerHTML = result;
             hitPosition = null;
